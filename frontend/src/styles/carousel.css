@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&display=swap');
+
+.carousel-box{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+    background-image: url(../assets/background/city.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.h3-heading {
+    font-family: 'Jura', sans-serif;
+}
+
+.image-carousel {
+    object-fit: cover !important;
+    height: 200px;
+
+}
+
+.sc-dnqmqq,
+.bVoXXg {
+    height: 200px;
+}
+
+
+
+.h4 {
+    transform: translateY(150px);
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #0c252c;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #0c252c;
+}
+
+
+
+/* hover */
+
+.image {
+    position: relative;
+    width: 480px;
+
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Jura', sans-serif;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity .7s ease-in-out;
+}
+
+.container:hover,.centered:hover{
+    opacity: 1;
+}
+
+.qbpMB{
+    background-color: #C0C0C0 !important;
+}
+
+.sc-bxivhb{
+    background-color: #0c252c
+}
+
+#popular-cities{
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.media-box{
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    .image-carousel {
+        object-fit: cover !important;
+        object-position: center !important;
+    }
+
+    .image-carousel,
+    .sc-dnqmqq,
+    .bVoXXg {
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 572px) {
+    .centered{
+        font-size: 1.5rem;
+    }
+
+}

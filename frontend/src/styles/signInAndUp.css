@@ -1,0 +1,367 @@
+:root {
+    --main-blue: #162e35;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&family=Orbitron:wght@900&display=swap');
+
+.body {
+    background-image: url(../assets/background/city.jpg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    font-weight: bold;
+    text-shadow: 3px 2px 3px rgba(85, 85, 85, 0.4);
+    color: #025171;
+    margin-bottom: 0 !important;
+}
+
+.hover-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.box-shadow {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
+}
+
+.sign-in-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70% !important;
+}
+
+.btn-width-full {
+    border: 1.5px solid transparent;
+}
+
+.btn-width-full:hover {
+    background-color: transparent;
+    border: 1.5px solid var(--main-blue);
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+    transition: all .5s linear;
+}
+
+.input-box {
+    padding: 0 0 !important;
+}
+
+input{
+    padding: .3rem .3rem;
+}
+
+.line-box {
+    margin: 0 0 !important;
+}
+
+
+/* BUTTON */
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+
+.btn::before,
+span::before,
+.hover-border-11::before,
+.btn:after,
+span::after,
+.hover-border-11::after {
+    position: absolute;
+    content: "";
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0px 25px 15px;
+}
+
+.btn span {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+
+
+/*--- btn-5 ---*/
+.btn-5 span {
+    color: var(--main-blue);
+    border: 2px solid rgb(166, 218, 248);
+    transition: 0.2s;
+}
+
+.btn-5 span:hover {
+    background-color: rgba(245, 245, 245, 0);
+}
+
+/* 21. hover-border-11 */
+.btn.hover-border-11::before,
+.btn.hover-border-11::after {
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-blue);
+    z-index: 1;
+    transition: 0.35s;
+}
+
+.btn.hover-border-11::before {
+    top: 0;
+    right: 0;
+}
+
+.btn.hover-border-11::after {
+    bottom: 0;
+    left: 0;
+}
+
+.btn.hover-border-11:hover::before,
+.btn.hover-border-11:hover::after {
+    width: 0%;
+    transition: 0.2s 0.2s ease-out;
+}
+
+.btn.hover-border-11 span::before,
+.btn.hover-border-11 span::after {
+    width: 2px;
+    height: 100%;
+    background-color: var(--main-blue);
+    z-index: 0;
+    transition: 0.25s;
+}
+
+.btn.hover-border-11 span::before {
+    bottom: 0;
+    right: -2px;
+}
+
+.btn.hover-border-11 span::after {
+    top: 0;
+    left: -2px;
+}
+
+.btn.hover-border-11 span:hover::before,
+.btn.hover-border-11 span:hover::after {
+    height: 0%;
+}
+
+
+.sub-btn {
+    padding: .7rem .7rem;
+    font-size: .8rem !important;
+    margin: .4rem .5rem;
+    background-color: #E1E1E1;
+    border-radius: 100%;
+}
+
+.box-shadow-btn {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px !important;
+}
+
+.btn-main {
+    min-width: 100%;
+}
+
+.sign-in-box {
+    width: 100% !important;
+}
+
+.sign-in-btn {
+    min-width: 100%;
+}
+
+.line {
+    height: 2px;
+    width: 45%;
+    background-color: #d6d6d6;
+}
+
+input::placeholder {
+    color: rgb(71, 71, 71);
+}
+
+.login-box {
+    margin: .5rem 0 !important;
+}
+
+.form {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.box {
+    padding: 1rem;
+
+}
+
+
+
+/* SIGN UP */
+
+
+
+.country-select,
+.inside,
+.country-drop-down {
+    width: 100% !important;
+    max-width: none;
+    background-color: transparent !important;
+    border-bottom: 2px solid var(--main-blue);
+}
+
+.country-list {
+    max-width: 450px !important;
+    z-index: 10;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--main-blue)
+}
+
+.btn2 {
+    background-color: var(--main-blue);
+    transition: all .5 ease;
+}
+
+.btn2:hover {
+    background-color: rgb(166, 218, 248);
+
+}
+
+.btn span:hover {
+    color: var(--main-blue) !important;
+    font-weight: bold;
+}
+
+.btn2 span {
+    color: white;
+    font-weight: lighter;
+}
+
+
+.sign-up-card,
+.sign-in-card {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+.shadow-btn{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+}
+
+
+.MuiSnackbarContent-message, .css-1exqwzz-MuiSnackbarContent-message{
+    color: black;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    
+}
+
+.input-box:focus-within{
+    background-color: rgba(0, 0, 0, 0.22);
+    background-color: rgba(166, 218, 248, 0.5);
+    border-bottom: 2px solid #2d505a;
+}
+
+.country-list{
+    width: 28rem !important;
+}
+
+.button-submit-box{
+    margin: 0 !important;
+    padding: 0!important;
+}
+
+.button-submit{
+    margin:0 !important;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .sign-up-card,
+    .sign-in-card {
+        width: 56% !important;
+    }
+    .box-modal{
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sign-up-card,
+    .sign-in-card {
+        width: 90% !important;
+    }
+    .country-list{
+        width: 25rem !important;
+    }
+    .box-modal{
+        width: 70% !important;
+    }
+    
+
+
+}
+
+
+@media (max-width: 500px) {
+    .first-last-box {
+        flex-direction: column;
+    }
+    .box-modal{
+        width: 95% !important;
+    }
+
+}
+
+
+@media (max-width: 300px) {
+    .body {
+        padding: .4rem;
+    }
+
+    .sign-in-card {
+        padding: 1.2rem;
+    }
+
+    .remember-me {
+        justify-content: center;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .sign-up-card,
+    .sign-in-card {
+        width: 98% !important;
+    }
+    .country-list{
+        width: 12rem !important;
+    }
+    .box-modal{
+        width: 100% !important;
+    }
+}

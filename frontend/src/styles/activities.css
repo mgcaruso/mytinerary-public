@@ -1,0 +1,20 @@
+#comments{
+    width: 100% !important;
+    resize: none;
+    height: 100% !important;
+}
+
+
+@media (max-width: 700px) {
+    .comment-box{
+        flex-direction: column;
+    }
+    .avatar-user{
+        padding-bottom: 1rem;
+    }
+    .action-box{
+        flex-direction: row;
+    }
+    
+    
+}

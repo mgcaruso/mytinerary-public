@@ -1,0 +1,72 @@
+/* NAV */
+:root{
+    --main-blue: #012838;
+}
+
+.nav{
+    font-family: 'Jura', sans-serif !important;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.nav:hover{
+    color: var(--main-blue);
+}
+
+.main{
+    min-height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-background{
+    /* background-color: rgba(0,0,0,0.3); */
+    background-color: var(--main-blue);
+    backdrop-filter: blur(1.5px);
+    font-family: 'Jura', sans-serif;
+    background-color: rgba(255,255,255,0.7);
+}
+.menu-item2{
+    color: #012838;
+    transition: all .6s linear;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.menu-item2:hover{
+    color:white;
+    background-color: var(--main-blue);
+
+}
+
+.menu-item{
+    color:white;
+    transition: all .6s linear;
+}
+
+/* BOTONES DEL MENU */
+
+.menu-item{
+    font-weight: bolder;
+    font-size: large;
+    padding: .5rem 1rem;
+    font-family: 'Jura', sans-serif;
+    height: 100%;
+}
+
+
+
+.menu-item:hover, .menu-item-active{
+    background-color: white;
+    color: var(--main-blue);
+
+}
+
+
+@media (max-width: 572px) {
+    .logo-img{
+        height: 1.6rem;
+    }
+}

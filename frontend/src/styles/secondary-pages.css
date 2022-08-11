@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --main-blue: "#284953";
+    --white-transparent: rgba(255, 255, 255, 0.7)
+}
+
+.body {
+    /* height: 69.7vh !important; */
+    background-size: cover;
+    flex-grow: 6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.cities-body {
+    background-image: url(../assets/background/city.jpg);
+}
+
+.cities-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found-body {
+    background-image: url(../assets/desert.jpg);
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.picture-computer {
+    filter: grayscale(0.4);
+}
+
+.heading {
+    font-family: 'Jura', sans-serif;
+}
+
+.card-body {
+    width: 100% !important;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+select {
+    /* // A reset of styles, including removing the default dropdown arrow */
+
+    /* // Additional resets for further consistency */
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    flex-grow: 0;
+    font-family: inherit;
+    font-size: inherit;
+
+}
+
+.input-search {
+    width: 350px;
+}
+
+.search-filters,
+.card-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-shadow-white{
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 5px 15px;
+}
+
+.box-shadow-black{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.text-shadow-black{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-white{
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.8);
+}
+
+.input {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+
+.details-body,.background-config {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.back{
+    background-attachment: fixed;
+}
+
+.title-details {
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+}
+
+.loader {
+    height: 70px;
+    width: 70px;
+    background-color: #284953;
+    border-radius: 100%;
+}
+
+.card-text {
+    /* backdrop-filter: blur(8px); */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+
+.light-theme {
+    color: var(--main-blue) !important;
+    background-color: var(--white-transparent) !important;
+}
+
+.dark-theme {
+    color: white !important;
+    background-color: #284953 !important;
+}
+
+.card-background{
+    background-color: transparent !important;
+}
+
+/*DROPDOWN CARD*/
+
+.MuiPaper-root {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    background-color: #F8FAFB !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    
+    /* align-items: center; */
+}
+
+.MuiCard-root *, #activities *, .card-text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#itineraries{
+    width: 100%!important;
+    padding: 0 !important;
+}
+
+
+.css-1ssile9-MuiCardHeader-avatar {
+    margin: 0 !important;
+}
+
+.box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.MuiTypography-root{
+    color:#284953;
+}
+
+.MuiPaper-root,
+.MuiPaper-elevation,
+.MuiPaper-rounded,
+.MuiPaper-elevation1,
+.MuiCard-root,
+.activity-container,
+.css-kaucsv-MuiPaper-root-MuiCard-root {
+    min-width: 100% !important;
+    padding-inline: 0;
+}
+
+.btn-reset{
+    margin:0;
+    padding:0;
+    border: none;
+    border-radius: none;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+}
+
+
+/*-------------FLIP CARD----------------------*/
+.flip-card {
+    background-color: transparent;
+    width: 22rem;
+    height: 12rem;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    color: var(--main-blue);
+    transform: rotateY(180deg);
+}
+
+.back-box{
+    border-radius: 10px;
+}
+
+.h-act-card{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nothing-yet{
+    background-image: url(../assets/background/city.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nothing-yet-text{
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+.MuiCardHeader-avatar,.css-1ssile9-MuiCardHeader-avatar{
+    background-color: transparent !important;
+}
+
+
+.MuiCardHeader-avatar, .css-1ssile9-MuiCardHeader-avatar{
+    background-color: transparent;
+}
+
+.buttonFind{
+    font-family: 'Jura', sans-serif;
+    background-color: transparent;
+    border: 2px solid #284953;
+    color: #284953;
+    transform: scale(1);
+}
+
+.buttonFind:hover{
+    background-color: #284953;
+    border: 2px solid white;
+    color: white;
+    transform: scale(1.02);
+    transition: all .5s linear;
+
+}
+@media (max-width: 700px) {
+    .search-filters {
+        flex-direction: column;
+    }
+
+    select,
+    .input-search {
+        flex-grow: 1;
+    }
+
+    .input-search {
+        width: 70%;
+    }
+
+    .activity-container {
+        flex-direction: column;
+        width: 90% !important;
+    }
+
+    .activity-img,.flip-card,.flip-card-back{
+        height: 13rem !important;
+        width: 20rem !important;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .input-search {
+        width: 90%;
+    }
+
+    .p-details {
+        font-size: medium;
+    }
+    .activity-img,.flip-card,.flip-card-back{
+        height: 11rem !important;
+        width: 18rem !important;
+    }
+    .text-back{
+        font-size: small !important;
+    }
+    
+}
+
+
+@media (max-width: 336px) {
+    .activity-img,.flip-card,.flip-card-back{
+        height: 9rem !important;
+        width: 14rem !important;
+    }
+    .text-back{
+        font-size: small !important;
+    }
+}

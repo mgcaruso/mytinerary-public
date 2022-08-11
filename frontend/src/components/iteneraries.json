@@ -1,0 +1,303 @@
+[
+    {
+        "city": "62a8f3a691d68440bf9d9006",
+        "itineraryName": "Day One in Doha",
+        "userName": "Sharie Graziosi",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/female/22.jpg",
+        "description": "When visiting Doha there can be so much to do. So here's my guide on the perfect itinerary with everything you need do!",
+        "price": 2,
+        "duration": 3,
+        "hashtags": ["island", "museum", "historic", "cruise", "cuisine"],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "The Pearl",
+                "picture": "https://www.visitaqatar.com/wp-content/uploads/2019/07/Pearl-Qatar.jpg",
+                "description": "The Pearl Qatar is a man-made island near Doha's prestigious West Bay District."
+            },
+            {
+                "name": "National Museum of Qatar",
+                "picture": "https://www.visitqatar.qa/content/dam/visitqatar/img/plan-your-trip/itineraries-and-tours/72-hour-itinerary/museums-and-markets.jpg/jcr:content/renditions/large-1920px.jpeg",
+                "description": "The National Museum of Qatar (NMoQ) is a vibrant and immersive space that invites all visitors to explore Qatar's rich heritage and culture."
+            },
+            {
+                "name": "Dhow Cruise",
+                "picture": "https://www.akhilaatourism.com/wp-content/uploads/2020/02/dhow-cruise-dinner-creek-compressor.jpg",
+                "description": "Dhow cruises are traditional dhows turned into restaurants. They are popular tourist attractions in Dubai and usually happen at Dubai Creek and Dubai Marina."
+            }
+        ]
+    },
+    {
+        "city": "62a8c91197f42c693947fdc1",
+        "itineraryName": "Cape Peninsula",
+        "userName": "Royce Kapp",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/female/65.jpg",
+        "description": "The Cape Peninsula is easily the number one must-do day trip from Cape Town. The main reason is that it's just so dang scenic!",
+        "price": 1,
+        "duration": 5,
+        "hashtags": [
+            "beach",
+            "penguins",
+            "southafrica",
+            "nature",
+            "scenery"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "Chapman's Peak Drive",
+                "description": "Situated on the Atlantic Coast, Chapman's Peak Drive is one of the most spectacular coastal drives in the world.",
+                "picture": "https://media-cdn.tripadvisor.com/media/vr-splice-j/05/be/07/f0.jpg"
+            },
+            {
+                "name": "Boulder's Beach",
+                "description": "Hop on a sea kayak and head out to Boulder's Beach, famous for it's African Penguins.",
+                "picture": "https://riosdelplaneta.com/wp-content/uploads/2020/08/playa-de-Boulders-2.jpg"
+            },
+            {
+                "name": "Cape Point National Park",
+                "description": "Experience the beauty and diversity of South African National Parks, Travel and explore South Africa!",
+                "picture": "http://capepoint.co.za/old/wp-content/uploads/2014/10/Cape-Point-Overnight-Huts.jpg"
+            }
+        ]
+    },
+
+    {
+        "city": "62a8f61e91d68440bf9d900c", 
+        "itineraryName": "Explore the highlights of Zurich",
+        "userName": "Xavier Waelchli",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/male/71.jpg",
+        "description": "Welcome! Get acquainted with the Old Town. We are then going to head to the hippest part of Zurich, Zurich West. This is where old meets new and you are going to see the best of both.",
+        "price": 4,
+        "duration": 5,
+        "hashtags": [
+            "zurich",
+            "historic",
+            "old",
+            "heritage",
+            "gardens"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "Rechberg Gardens ",
+                "description": "Located directly beside Hotel Florhof, Rechberg Gardens are one of the most scenic spots in Zurich.",
+                "picture": "https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-0404f4f/images/Zurich-Itinerary-Rechberg-Gardens--1536x1024.jpg"
+            },
+            {
+                "name": "University of Zurich View",
+                "description": "The Federal Institute of Technology (ETH) at the University of Zurich offers panoramic views of the Old Town, Limmat River, and they city's church steeples.",
+                "picture": "https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-0404f4f/images/Zurich-Itinerary-University-of-Zurich-1536x864.jpg"
+            },
+            {
+                "name": "Cross the Münsterbrücke",
+                "description": "This bridge takes you from Grossmünster across the Limmat River directly to Fraumünster. Make sure to stop and take in the views.",
+                "picture": "https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/static/optimized/rev-0404f4f/images/Zurich-Itinerary-Munsterbrucke-640x960.jpg"
+            }
+        ]
+    },
+    {
+        "city": "62a8f36591d68440bf9d8ffc",
+        "itineraryName": "Pinch me, I'm in Paris!",
+        "userName": "Greg Hans",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/male/21.jpg",
+        "description": "Bonjour! In this itinerary you get to visit some of Paris'biggest and most iconic sites:the Eiffel Tower,the Louvre,and the Arc de Triomphe. Get ready to take lots of photos and make some wonderful memories.",
+        "price": 4,
+        "duration": 5,
+        "hashtags": [
+            "café",
+            "historic",
+            "museum",
+            "heritage",
+            "french"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "The Eiffel Tower",
+                "description": "Yes,the Eiffel Tower is super touristy butavisit to Paris would not be complete withoutaview from the tower,especially if this is your first time in Paris.",
+                "picture": "https://lh3.googleusercontent.com/Tn1iQRK8BstSQm-6sFfvthNCN-j47CV5bDQia0J3xT27xkFnLCebDHyiIiI3modPiYNndXA0VNYKRijGIu0glZa1hQ=w640-h400-e365-rj-sc0x00ffffff"
+            },
+            {
+                "name": "The Louvre",
+                "description": "The Louvre is the world's largest art museum.This building was once the home to French Kings,including Louis XIV.During the French Revolution in the 18th century,the Louvre was converted toamuseum.",
+                "picture": "https://images.prismic.io/mystique/8c87f382-0a5e-4e89-a34e-dcd0def43507_1dd96726-9311-41f5-ac66-c729a8761275-3909-paris-louvre-museum-priority-access-with-flexible-entry-time-01.jpg?auto=compress%2Cformat&h=573&q=75&fit=crop&ar=14%3A9&fm=webp"
+            },
+            {
+                "name": "The Arc de Triomphe",
+                "description": "Arc de Triomphe, in full Arc de Triomphe de l'Étoile, massive triumphal arch in Paris, France, one of the world's best-known commemorative monuments.",
+                "picture": "https://mymodernmet.com/wp/wp-content/uploads/2019/05/arc-de-triomphe-1.jpg"
+            }
+        ]
+    },
+    {
+        "city": "62a8f36591d68440bf9d8ffc",
+        "itineraryName": "History in the center of Paris",
+        "userName": "Versie Abruscato",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/female/60.jpg",
+        "description": "The historic center of Paris, Musee D'Orsay & Montmartre",
+        "price": 4,
+        "duration": 5,
+        "hashtags": [
+            "french",
+            "historic",
+            "heritage",
+            "cathedral",
+            "religion"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "Sainte-Chapelle",
+                "description": "Sainte-Chapelle is home to one of the world's best displays of stained glass.It is gorgeous inside,much prettier than the inside of Notre Dame Cathedral.",
+                "picture": "https://cdn2.civitatis.com/francia/paris/galeria/techos-sainte-chapelle.jpg"
+            },
+            {
+                "name": "Notre Dame Cathedral",
+                "description": "The Notre Dame Cathedral is widely considered one of the finest examples of French Gothic architecture in the world.",
+                "picture": "https://turismoparis.org/wp-content/uploads/2021/09/notre-dame-paris.jpg"
+            },
+            {
+                "name": "Museé d'Orsay",
+                "description": "The Musée d'Orsay has one of the most unforgettable collections of art, ranging from the late 19th century to the early 20th century.",
+                "picture": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/26/b3/6e/20180601-122841-largejpg.jpg?w=1200&h=-1&s=1"
+            }
+        ]
+    },
+    {
+        "city": "62a8f37491d68440bf9d8ffe",
+        "itineraryName": "London's magnificent historic centre",
+        "userName": "Sina Antonino",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/female/5.jpg",
+        "description": "London City Centre is the place for round-the-clock attractions. Discover architectural masterpieces, browse first-class museum exhibits and catch a play. Go on a shopping spree and sample the vibrant nightlife scene. Visit London City Centre to explore several districts, each with their own unique history and character.",
+        "price": 5,
+        "duration": 3,
+        "hashtags": [
+            "londoneye",
+            "bigben",
+            "historic",
+            "museum",
+            "english"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "The Big Ben",
+                "description": "You should start your trip to London by going to see the famous Big Ben. Situated in the historic centre of the city on the banks of the Thames, you can't miss the most iconic building of the British capital.",
+                "picture": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/55/72.jpg"
+            },
+            {
+                "name": "Buckingham Palace",
+                "description": "Let's head to another unmissable visit: Buckingham Palace! The royal palace is just 300 metres from Big Ben and Westminster Abbey. To get there, simply take Birdcage Walk, the street that runs alongside St James's Park.",
+                "picture": "https://blog.obilet.com/wp-content/uploads/2018/03/Buckingham-Saray%C4%B1.jpg"
+            },
+            {
+                "name": "The London Eye",
+                "description": "It's now time for a ride on the biggest Ferris wheel in Europe, the London Eye, located only 15 minutes away from Trafalgar Square.",
+                "picture": "https://www.guiadelnino.com/var/guiadelnino.com/storage/images/planes-para-ninos/viajar-con-ninos/10-lugares-que-encantan-a-los-ninos-en-londres/london-eye/6406441-5-esl-ES/london-eye.jpg"
+            }
+        ]
+    },
+    {
+        "city": "62a8f37491d68440bf9d8ffe",
+        "itineraryName": "Sightseeing round London",
+        "userName": "Carylon Blevins",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/female/16.jpg",
+        "description": "This itinerary involves our visit to to Camden Town district, the British Museum, the Tower of London and the Tower Bridge.",
+        "price": 3,
+        "duration": 2,
+        "hashtags": [
+            "english",
+            "sightseeing",
+            "history",
+            "museum",
+            "tower"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "The British Museum",
+                "description": "With a collection of over 7 million objects tracing human history and culture, it's one of the most visited museum in Great Britain.",
+                "picture": "https://i0.wp.com/www.hisour.com/wp-content/uploads/2018/08/British-Museum.jpg?fit=960%2C640&ssl=1"
+            },
+            {
+                "name": "The Tower of London",
+                "description": "After your visit to the British Museum, you can head to the famous Tower of London, located on the banks of the Thames.",
+                "picture": "https://www.historyhit.com/app/uploads/2021/03/Tower-of-London_supplied-by-Tower-of-London.jpg"
+            },
+            {
+                "name": "Tower Bridge",
+                "description": "Right next to the Tower of London, you can't miss the impressive Tower Bridge, another of the city's iconic landmarks.",
+                "picture": "https://www.eliberico.com/wp-content/uploads/2021/09/tower-bridge-640x375.jpg"
+            }
+        ]
+    },
+    {
+        "city": "62a8f6e091d68440bf9d900e",
+        "itineraryName": "Visit to Centro Storico and villa Borghese",
+        "userName": "Lacey Stpreux",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/female/46.jpg",
+        "description": "Start your Rome itinerary with a stroll in Piazza Navona, one of the most magical squares in Centro Storico. Visit and admire the magnificent Pantheon and Fontana di Trevi.",
+        "price": 2,
+        "duration": 5,
+        "hashtags": [
+            "ancient",
+            "historic",
+            "italian",
+            "rome",
+            "sightseeing"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "Piazza Navona",
+                "description": "At the center of the piazza is the impressive Fontana dei Quattro Fiumi, designed by Bernini in 1651. This fountain showcases some truly amazing sculptural art, which is best admired with a gelato in hand.",
+                "picture": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/88/12.jpg"
+            },
+            {
+                "name": "Pantheon",
+                "description": "The Pantheon is one of the most well-preserved and ancient structures in the Eternal City, and it’s a staple of any 3-day itinerary for Rome.",
+                "picture": "https://curiosfera-historia.com/wp-content/uploads/Pante%C3%B3n-de-Roma-1.jpg"
+            },
+            {
+                "name": "Fontana di Trevi",
+                "description": "Completed in 1762, it is the largest Baroque fountain in the Eternal City, and undoubtedly, one of the most impressive sights in all of Italy.",
+                "picture": "https://carreteandoblog.com/wp-content/uploads/2021/08/Trevi-Fountain-scaled.jpg"
+            }
+        ]
+    },
+    {
+        "city": "62a8f6e091d68440bf9d900e",
+        "itineraryName": "Ancient Rome",
+        "userName": "Jarred Armenta",
+        "userImage": "https://xsgames.co/randomusers/assets/avatars/male/60.jpg",
+        "description": "In a city of extraordinary beauty, Rome's ancient heart stands out.",
+        "price": 5,
+        "duration": 5,
+        "hashtags": [
+            "ancient",
+            "culture",
+            "heritage",
+            "historic",
+            "past"
+        ],
+        "likes": 0,
+        "activities": [
+            {
+                "name": "Colosseum",
+                "description": "The Colosseum was built between 72 AD and 80 AD, and it quickly became the greatest amphitheater in the Roman world. It was the main entertainment hub of the Roman Empire.",
+                "picture": "https://static6.depositphotos.com/1004999/588/i/450/depositphotos_5889377-stock-photo-the-colosseum-in-rome-italy.jpg"
+            },
+            {
+                "name": "Roman Forum & Palatine Hill",
+                "description": "The Forum became abandoned, forgotten, and buried under the earth after the fall of the empire, and was only excavated in 1898.",
+                "picture": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/eb/7b/b8.jpg"
+            },
+            {
+                "name": "Terme Di Caracalla",
+                "description": "Completed in 1762, it is the largest Baroque fountain in the Eternal City, and undoubtedly, one of the most impressive sights in all of Italy.",
+                "picture": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/79/b6.jpg"
+            }
+        ]
+    }
+]
